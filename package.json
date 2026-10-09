@@ -1,0 +1,10 @@
+{
+  "name": "plantguard-ai",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev.ps1",
+    "test": "python -m pytest backend/tests -q",
+    "build": "npm --prefix frontend run build"
+  }
+}
